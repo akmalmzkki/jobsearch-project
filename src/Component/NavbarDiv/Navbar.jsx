@@ -25,7 +25,7 @@ const Navbar = () => {
     }
   }, [])
 
-  const navbarClasses = `navbar flex justify-between items-center p-[3rem] fixed top-0 left-0 right-0 ${navbarBg ? 'z-10 bg-white shadow-md' : ''} ${mobileNav ? 'z-10 bg-white shadow-md' : ''}}`
+  const navbarClasses = `navbar flex justify-between md:items-center p-[3rem] fixed top-0 left-0 right-0 ${navbarBg ? 'z-10 bg-white shadow-md' : ''} ${mobileNav ? 'z-10 bg-white shadow-md' : ''}}`
   const navbarTransition = {
     transition: 'background 0.1s ease-in-out, box-shadow 0.1s ease-in-out'
   }
@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className={navbarClasses} style={navbarTransition}>
       <div className="logo-div ml-6">
-        <h1 className='logo text-[25px] text-blueColor z'><strong>Job</strong>Search</h1>
+        <h1 className='logo text-[25px] text-blueColor'><strong>Job</strong>Search</h1>
       </div>
       <div className="menu flex fixed right-0 gap-8 mr-10 md:flex md:mr-0 md:gap-0">
         <button onClick={toggleMobileNav} className={`md:hidden menu-list text-[#6f6f6f] hover:text-blueColor ${mobileNav ? 'hidden' : 'flex'}`}>

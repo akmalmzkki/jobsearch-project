@@ -58,9 +58,9 @@ const Footer = () => {
             Lorem@gmail.com
           </small>
           <div className='icons flex gap-4 py-4'>
-            <AiFillInstagram className='bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-blueColor'></AiFillInstagram>
-            <AiOutlineTwitter className='bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-blueColor'></AiOutlineTwitter>
-            <BsFacebook className='bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-blueColor'></BsFacebook>
+            <AiFillInstagram className='bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-blueColor hover:scale-110'></AiFillInstagram>
+            <AiOutlineTwitter className='bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-blueColor hover:scale-110'></AiOutlineTwitter>
+            <BsFacebook className='bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-blueColor hover:scale-110'></BsFacebook>
           </div>
         </div>
       </div>
